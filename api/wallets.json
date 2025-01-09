@@ -1,0 +1,19 @@
+{
+ "wallets": [
+  {
+   "userId": "1234",
+   "walletPublicKey": "signResponse.name",
+   "signature": "signResponse.signature.toString(\"base64\")"
+  },
+  {
+   "userId": "4321",
+   "walletPublicKey": "signResponse.name",
+   "signature": "signResponse.signature.toString(\"base64\")"
+  },
+  {
+   "userId": "5647",
+   "walletPublicKey": "signResponse.name",
+   "signature": "signResponse.signature.toString(\"base64\")"
+  }
+ ]
+}

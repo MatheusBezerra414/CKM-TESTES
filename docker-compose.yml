@@ -1,0 +1,20 @@
+services:
+  api:
+    build:
+      context: ./api
+    container_name: api-container
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./api/dist:/app/dist # Monta o diretório dist para depuração local
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend-container
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
