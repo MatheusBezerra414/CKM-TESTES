@@ -2,19 +2,23 @@ services:
   api:
     build:
       context: ./api
+      dockerfile: Dockerfile
     container_name: api-container
     ports:
       - "3001:3001"
     environment:
       - NODE_ENV=production
     volumes:
-      - ./api/dist:/app/dist # Monta o diretório dist para depuração local
+      - ./api:/app # Para desenvolvimento
+      - /app/node_modules
+    command: npm start
 
   frontend:
     build:
       context: ./frontend
+      dockerfile: Dockerfile
     container_name: frontend-container
     ports:
-      - "8080:80"
+      - "3000:80" # Nginx expõe na porta 80
     depends_on:
       - api
