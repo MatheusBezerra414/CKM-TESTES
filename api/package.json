@@ -12,8 +12,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@bywise/web3": "^1.2.0",
+    "@google-cloud/kms": "^4.5.0",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
+    "ethers": "^6.13.5",
     "express": "^4.21.2"
   },
   "devDependencies": {

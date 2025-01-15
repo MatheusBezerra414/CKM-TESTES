@@ -1,0 +1,16 @@
+{
+  "wallets": [
+    {
+      "userId": "12341234kjh",
+      "walletAddress": "0xc8bF4eb19445433ef7ba6CAeDC9b8A11339F0930",
+      "privateKey": "CiQATvFDKJtUEfQJCVvllO6tQ1dRWEItUikqsUW877K83Bb2TMoShwEqhAEKFAoMmVxvewpRypMAcBAWEMSugIAGElIKSsfBltf3C/M4goCs61X9wjLenom4xttVfSsVqc+ZXFLaCHEFCUvyTKnAd6fk7LDbBy7J+Y7Wsg3pDAUTXtKw1YaN1HLZ77y77LPcEJW0rdYBGhgKEGHNn6EQWvjWyVOQVfaCBDIQnvHq+g0=",
+      "mnemonic": "old december evoke midnight garlic rice cloth twice large wolf setup cupboard"
+    },
+    {
+      "userId": "adfasdfasd",
+      "walletAddress": "0x116afa8f7465F3154f4A38c72B1d6ef0f85a6a1a",
+      "privateKey": "CiQATvFDKLZdMqngV9dIcY0s51Dr/7HTAmk9joerYQV92mDpKzoShwEqhAEKFAoMGCCGaO7LrUdTUDUaEO3T1f4CElIKSng3A5d4784HOiojm07XsIyh2seqp73gAXCfvlSRR6VKPvd41ud6z79q/lDdSQWIANDEW2mEQxdRF9LnyUygsyAfYOxooKno2W6FEKWjp5sCGhgKEOuMtrSAR9jWSdmq4+mdNMkQ3p2kxwc=",
+      "mnemonic": "disorder youth rich enable march initial vote slight people stable identify render"
+    }
+  ]
+}

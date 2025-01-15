@@ -36,7 +36,7 @@ h2 {
 }
 
 input {
-  width: 100%;
+  width: 96%;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ddd;
@@ -80,10 +80,15 @@ li {
   padding: 15px;
   border-radius: 6px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   margin-bottom: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word; /* Quebra palavras longas */
+  overflow-wrap: break-word;
+}
+
+li div {
+  margin-bottom: 10px;
 }
 
 li strong {
@@ -91,16 +96,31 @@ li strong {
   color: #0078d4;
 }
 
-li button {
+.delete-btn {
   background-color: #e53e3e;
   color: white;
   font-size: 0.9rem;
   padding: 5px 10px;
   width: auto;
+  border-radius: 4px;
 }
 
-li button:hover {
+.delete-btn:hover {
   background-color: #c53030;
+}
+
+.toggle-btn {
+  width: 100%;
+  background-color: #0078d4;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background-color: #005bb5;
 }
 
 @media (max-width: 600px) {
